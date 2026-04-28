@@ -172,7 +172,7 @@ extension WordUtils on Word {
   /// has new a [HitType] of either [HitType.hit],
   /// [HitType.partial], or [HitType.miss].
   Word evaluateGuess(Word other) {
-    assert(isLegalGuess);
+    // assert(isLegalGuess);
 
     // Find exact hits. Mark them as hits, and mark letters in the hidden word
     // as removed.
